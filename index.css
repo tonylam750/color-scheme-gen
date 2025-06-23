@@ -3,20 +3,17 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-
-    box-sizing: border-box;
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rebeccapurple;
-    min-width: 550px;
-    min-height: 90px;
     padding: 10px;
     gap: 20px;
+    height: 100px;
     background-color: #1F2937;
+    
 
 }
 
@@ -24,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    
 }
 
 
@@ -44,7 +42,7 @@ select {
 }
 
 .get-scheme-btn {
-    min-width: 123px;
+    min-width: 40px;
     min-height: 42px;
     border-radius: 4px;
     border: none;
@@ -57,28 +55,21 @@ select {
 main {
     display: flex;
     height: 100%;
-
-
 }
 
-.red {
-    background-color: red;
+.colour{
     width: 20%;
 }
 
-.blue {
-    background-color: blue;
-    width: 20%;
-}
 
 footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     min-height: 80px;
     background-color: #1F2937;
     color: #D5D4D8;
 
 
 }
+

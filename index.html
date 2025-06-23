@@ -1,29 +1,17 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
         <nav>
-            <input class="seed-picker" type="color" name="seed" id="seed-picker">
+            <input class="seed-picker" type="color" name="seed" id="seed-picker" value="#31AFA1">
             <select name="colour-scheme" id="colour-scheme">
             </select>
             <button class="get-scheme-btn" id="get-scheme-btn">Get color scheme</button>
         </nav>
-        <main>
-            <div class="red"></div>
-            <div class="blue"></div>
-            <div class="red"></div>
-            <div class="blue"></div>
-            <div class="red"></div>
-         </main>
-         <footer>
-            <div>#FFFFFF</div>
-            <div>#FFFFFF</div>
-            <div>#FFFFFF</div>
-            <div>#FFFFFF</div>
-            <div>#FFFFFF</div>
-
-         </footer>
+        <main id="palette"></main>
+        <footer id="footer"> </footer>
         <script src="index.js"></script>
     </body>
 </html>

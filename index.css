@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    
 }
 
 nav {
@@ -25,11 +25,12 @@ body {
 }
 
 
-.seed-picker {
+.color-picker {
     min-width: 71px;
     min-height: 42px;
     margin: 0;
     border: 0.5px solid #D1D5DB;
+    border-radius: 4px;
 }
 
 select {
@@ -38,6 +39,8 @@ select {
     border-radius: 6px;
     background-color: #1F2937;
     color: #D5D4D8;
+    font-size: 1rem;
+    
 
 }
 
@@ -49,7 +52,11 @@ select {
     cursor: pointer;
     background-color: #3D4B60;
     color: #FFFFFF;
+    font-size: 0.9rem;
+}
 
+.get-scheme-btn:active{
+    background-color:lightslategray;
 }
 
 main {
@@ -57,7 +64,7 @@ main {
     height: 100%;
 }
 
-.colour{
+.color{
     width: 20%;
 }
 
@@ -69,7 +76,6 @@ footer {
     min-height: 80px;
     background-color: #1F2937;
     color: #D5D4D8;
-
 
 }
 

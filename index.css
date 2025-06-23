@@ -9,6 +9,8 @@ html,
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    overflow: hidden;
 
 }
 
@@ -18,7 +20,8 @@ nav {
     align-items: center;
     padding: 10px;
     gap: 20px;
-    height: 200px;
+    height: 150px;
+    flex-shrink: 0;
     background-color: #1F2937;
 
 
@@ -27,8 +30,6 @@ nav {
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-
 }
 
 
@@ -67,7 +68,8 @@ select {
 
 main {
     display: flex;
-    height: 100vh;
+    flex: 1;
+    min-height: 0;
 }
 
 .color {
@@ -77,10 +79,11 @@ main {
 
 footer {
     display: flex;
-    height: 200px;
+    height: 150px;
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
     color: #D5D4D8;
+    flex-shrink: 0;
 
 }

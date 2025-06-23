@@ -45,8 +45,6 @@ select {
 }
 
 .get-scheme-btn {
-    min-width: 40px;
-    min-height: 42px;
     border-radius: 4px;
     border: none;
     cursor: pointer;

@@ -20,16 +20,14 @@ nav {
     align-items: center;
     padding: 10px;
     gap: 20px;
-    height: 150px;
-    flex-shrink: 0;
     background-color: #1F2937;
 
 
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+   display: grid;
+   grid-template-rows: 150px 1fr 150px;
 }
 
 
@@ -68,12 +66,12 @@ select {
 
 main {
     display: flex;
-    flex: 1;
-    min-height: 0;
+    overflow: hidden;
 }
 
 .color {
-    width: 20%;
+   flex: 1 1 0;
+   min-width: 0;
 }
 
 
